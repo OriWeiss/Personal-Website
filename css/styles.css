@@ -1,0 +1,237 @@
+
+
+/*GLOBAL STYLER=================================================*/
+
+html {
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  img {
+    width: 300px;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 200px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 70px;
+  }
+  h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+  }
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  .item-details h3 + p {
+    font-style: italic;
+  }
+  .item-details h3 ~ p {
+    margin: 0;
+  }
+  .divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+  }
+  .divider > section:last-of-type {
+    border-bottom: none;
+  }
+  
+  /*.btn{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #F7FFF7;
+    
+    border: 5px solid #e1a87a;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .btn:hover{
+    background: #e1a87a;
+  }
+*/
+/*==============================================================*/
+  
+/*NAV BAR==============================================================*/
+
+nav{
+    
+    
+    text-align: center;
+    
+    
+}
+nav a{
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+    color: blue;   
+}
+nav a:hover{
+  color:#e1a87a;
+}
+
+#home-btn{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+/*==============================================================*/
+
+/*HEADER==============================================================*/
+header{
+  background-color: #f0f0f0;
+  /*font-size: 20em;*/
+}
+header > .primary{
+  background-image:url(../images/glasses.jpeg);
+    
+    text-align: center;
+   
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+    color: white;
+}
+#hire-btn{
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #F7FFF7;
+  /*background: #e1a87a;*/
+  border: 1px solid #e1a87a;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 1px;
+  display: inline-block;
+  margin-top: 10px;
+}
+#hire-btn:hover{
+  background-color: #e1a87a;
+}
+
+/*==============================================================*/
+
+/*ACTIVITY==============================================================*/
+.activity{
+  
+  font-family: 'Caveat', cursive;
+
+}
+.travel{
+  background-color: #f0f0f0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.activity img{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*padding: 0;*/
+  
+}
+
+#travelImg{
+  background-color:white;
+  border:3px solid black;
+  -webkit-animation-duration: 0.5s;
+}
+.travel .desc{
+  -webkit-animation-duration: 0.5s;
+}
+#motorImg{
+  background-color:black;
+  border:3px solid white;
+}
+.activity h2{
+  font-weight: 500;
+}
+
+.activity h3{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+.activity ul{
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.activity .desc{
+  margin: auto;
+}
+
+.motorsport{
+  background-color: #3e4444;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+/*==============================================================*/
+
+/*Projects==============================================================*/
+.projects{
+  background-color: #f0f0f0;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.projects h2{
+  font-size: 2.2em;
+}
+.projects h3{
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+.projects img{
+  width: 600px;
+  background-color: white;
+  border-color: black;
+  margin-top: 2em;
+}
+
+/*==============================================================*/
+
+/*Footer==============================================================*/
+footer{
+  background-color: #3e4444;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer > h2{
+  font-size: 2em;
+}
+
+/*==============================================================*/
+
+
