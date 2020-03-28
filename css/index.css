@@ -1,0 +1,147 @@
+
+
+/*HEADER==============================================================*/
+header{
+  background-color: #f0f0f0;
+  background-image:url(../images/glasses.jpeg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  color: white;
+  height: 100vh;
+  /*font-size: 20em;*/
+}
+header h1{
+  font-size: 5em;
+}
+header > .header-wrapper{
+  padding-top: 20vh;
+}
+#hire-btn{
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #F7FFF7;
+  /*background: #e1a87a;*/
+  border: 1px solid #e1a87a;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 1px;
+  display: inline-block;
+  margin-top: 10px;
+}
+#hire-btn:hover{
+  background-color: #e1a87a;
+}
+
+/*==============================================================*/
+
+/*ACTIVITY==============================================================*/
+.activity{
+  
+  font-family: 'Caveat', cursive;
+
+}
+.travel{
+  background-color: #f0f0f0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.activity img{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*padding: 0;*/
+  
+}
+
+#travelImg{
+  margin:auto auto;
+  background-color:white;
+  border:3px solid black;
+  -webkit-animation-duration: 0.5s;
+}
+.travel .desc{
+  -webkit-animation-duration: 0.5s;
+}
+#travel-desc{
+  display: block;
+  margin-left:20%;
+}
+#motorImg{
+  display: block;
+  float: center;
+  margin-left:20%;
+}
+
+/*{
+  float:right;
+  margin-right: 30%;
+  background-color:black;
+  border:3px solid white;
+
+}*/
+.activity h2{
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.activity h3{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+.activity ul{
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.activity .desc{
+  margin: auto;
+}
+
+.motorsport{
+  background-color: #3e4444;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+/*==============================================================*/
+
+/*Projects==============================================================*/
+.projects{
+  background-color: #f0f0f0;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.projects h2{
+  font-size: 2.2em;
+}
+.projects h3{
+  margin-top: 1em;
+  font-size: 1.3em;
+}
+.projects img{
+  background-color: white;
+  border-color: black;
+  margin-top: 2em;
+}
+
+/*==============================================================*/
+
+/*RESPONSIVE==============================================================*/
+@media screen and (max-width: 750px){
+  #motorImg{
+    margin-left: 0%;
+    float: left;
+  }
+  #travel-desc{
+    margin-left: 0%;
+    float: left;
+  }
+}
+
+
+/*==============================================================*/
