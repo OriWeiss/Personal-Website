@@ -50,7 +50,10 @@ header{
   .skills h3{
     font-size: 1.3em;
   }
-
+  #resume a{
+    font-size: 1em;
+    font-weight: 400;
+  }
   #resume h4{
       font-size: 1em;
       font-weight: 400;
@@ -68,7 +71,7 @@ header{
 
 @media screen and (max-width: 850px){
     header h1{
-        padding-right: 0;
+        padding-right: 2%;
     }
 }
 
