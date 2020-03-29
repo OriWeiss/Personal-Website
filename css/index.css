@@ -21,7 +21,7 @@ header > .header-wrapper{
   font-size: 1.3em;
   font-weight: 700;
   color: #F7FFF7;
-  /*background: #e1a87a;*/
+  background-color: rgb(0,0,0,0.3);
   border: 1px solid #e1a87a;
   text-decoration: none;
   padding: 15px;
@@ -133,6 +133,14 @@ header > .header-wrapper{
 
 /*RESPONSIVE==============================================================*/
 @media screen and (max-width: 750px){
+  header > .header-wrapper{
+    padding-top: 5%;
+  }
+
+  header h1{
+    font-size: 3em;
+  }
+
   #motorImg{
     margin-left: 0%;
     float: left;
