@@ -1,0 +1,31 @@
+/*Global Styles===========================================================================================*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+/*===========================================================================================*/
+
+/*HEADER===========================================================================================*/
+header{
+    background-color: #f0f0f0;
+    background-image:url(../images/feather.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-position: bottom right;*/
+    color:white;
+    height: 100vh;
+    /*font-size: 20em;*/
+  }
+
+header h1{
+    font-size: 5em;
+    color: rgba(12, 104, 129, 0.76);
+    padding-top: 20%;
+    
+    }
+  /*===========================================================================================*/
