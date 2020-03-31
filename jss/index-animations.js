@@ -30,4 +30,22 @@ $(function () {
             $('#csclub').addClass("animated rotateInUpLeft");
         }
     });
+/*
+    $('#stairs-img').css({ display: "none" });
+    $('#facts-desc').css({ display: "none" });
+    */
+    $(window).scroll(function () {ed
+        var hT = $('.facts').offset().top,
+            hH = $('.facts').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+        console.log((hT - wH), wS);
+        if (wS > (hT + hH - wH)) {
+            $('#stairs-img').css({ display: "block" });
+            $('#stairs-img').addClass("animated rotateInUpLeft");
+            $('#facts-desc').css({ display: "block" });
+            $('#facts-desc').addClass("animated rotateInUpLeft");
+        }
+    });
+    
 });

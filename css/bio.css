@@ -47,10 +47,38 @@ header h1{
     margin: auto;
   }
 
-  /*===========================================================================================*/
+  .facts h2{
+    font-size: 3em;
+  }
+/*===========================================================================================*/
+
+/*DEDICATION===========================================================================================*/
+.dedication{
+  background-color: #f0f0f0;
+  margin: auto;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  
+}
+.dedication h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.dedication p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+/*===========================================================================================*/
+
 
 /*COllAGE===========================================================================================*/
 .flex-container{
+  background-color: #f0f0f0;
   margin : auto;
   display:flex;
   flex-wrap: wrap-reverse;
