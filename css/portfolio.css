@@ -1,3 +1,14 @@
+/*SIZING OF TABS--------------------------------------------------------------*/
+.tl-item{
+  width:33.5%
+}
+
+.tl-item:hover {
+  width: 200% !important;
+}
+/*--------------------------------------------------------------*/
+
+/*TRY NOT TO MESS WITH--------------------------------------------------------------*/
 body {
   font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 16px;
@@ -10,14 +21,13 @@ body {
   background-color: #031625;
 }
 #timeline:hover .tl-item {
-  width: 20.3333%;
+  width: 23.3333%;
 }
 
 .tl-item {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   position: relative;
-  width: 33.5%;
   height: 100vh;
   min-height: 600px;
   color: #fff;
@@ -53,9 +63,7 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
   transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease;
 }
-.tl-item:hover {
-  width: 200% !important;
-}
+
 .tl-item:hover:after {
   opacity: 0;
 }
@@ -132,3 +140,17 @@ body {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+/*--------------------------------------------------------------*/
+/*RESPONSIVE--------------------------------------------------------------*/
+@media screen and (max-width: 750px){
+  .tl-item:hover .tl-year{
+    top: 5%
+  }
+  .tl-content{
+    top: 10%
+  }
+  .tl-item:hover{
+    width: 90% !important;
+  }
+}
+/*--------------------------------------------------------------*/
