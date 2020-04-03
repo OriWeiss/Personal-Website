@@ -1,0 +1,98 @@
+/*Global Styles===========================================================================================*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+/*===========================================================================================*/
+
+/*HEADER===========================================================================================*/
+header{
+    background-color: #f0f0f0;
+    background-image:url(../images/coffee-cup.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-position: bottom right;*/
+    color:white;
+    height: 100vh;
+    /*font-size: 20em;*/
+  }
+
+header h1{
+    font-size: 5em;
+    color: white;
+    padding-top: 15%;
+    
+    }
+  /*===========================================================================================*/
+
+    /*Automation===========================================================================================*/
+    .automation{
+      background-color: white;
+      color: black;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .automation img{
+      display: block;
+      margin:10px auto;
+      background-color: #3e4444;
+    }
+    .automation .desc{
+      padding-top: 20px;
+      margin: auto;
+    }
+  
+    .automation h2{
+      font-size: 3em;
+    }
+  /*===========================================================================================*/
+
+  /*Embedded Systems===========================================================================================*/
+    .embedded{
+      padding-left: 20%;
+      
+      background-color: #f0f0f0;
+    }
+    #embedded-img{
+      margin: auto auto;
+    }
+
+    #embedded-desc{
+      padding-right: 10%;
+    }
+
+    #embedded-desc h2{
+      font-size: 3em;
+    }
+
+
+  /*===========================================================================================*/
+
+  /*Other Interests===========================================================================================*/
+.other-interests{
+  background-color: #c9c9c9;
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  
+}
+.other-interests h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.other-interests p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+/*===========================================================================================*/
