@@ -82,4 +82,9 @@ footer{
   }
   
   /*==============================================================*/
+
+  @font-face {
+    font-family: Oswald;
+    src: url(../component/Oswald/Oswald-VariableFont_wght.ttf);
+  }
   
