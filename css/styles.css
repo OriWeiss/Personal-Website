@@ -25,10 +25,7 @@ html {
   a:hover {
     text-decoration: none;
   }
-  .link-btn{
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
   h1 {
     font-size: 100em;
     line-height: 1;
@@ -85,7 +82,11 @@ footer{
   footer > h2{
     font-size: 2em;
   }
-  
+  .footer-btn{
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #3e4444;
+  }
   /*==============================================================*/
 
   /*Fonts==============================================================*/
