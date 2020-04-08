@@ -25,6 +25,10 @@ html {
   a:hover {
     text-decoration: none;
   }
+  .link-btn{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   h1 {
     font-size: 100em;
     line-height: 1;
