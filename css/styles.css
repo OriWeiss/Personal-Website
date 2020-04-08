@@ -11,7 +11,7 @@ html {
     color: #343434;
     margin: 0;
     padding: 0;
-    font-family: 'Caveat', cursive;
+    font-family: 'Comic Sans', cursive;
     font-size: 15px;
     line-height: 1.5;
   }
@@ -32,13 +32,13 @@ html {
     font-size: 70px;
   }
   h1, h2 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Comic Sans', cursive;
     font-weight: 400;
     margin: 0;
   }
   h3 {
     margin-bottom: 0;
-    font-family: 'Caveat', cursive;
+    font-family: 'Comic Sans', cursive;
   }
   
 
@@ -83,8 +83,14 @@ footer{
   
   /*==============================================================*/
 
+  /*Fonts==============================================================*/
+
   @font-face {
     font-family: Oswald;
-    src: url(../component/Oswald/Oswald-VariableFont_wght.ttf);
+    src: url(../component/fonts/Oswald/Oswald-VariableFont_wght.ttf);
   }
   
+  @font-face {
+    font-family: 'Comic Sans';
+    src: url(../component/fonts/Comic_Sans/comic.ttf);
+  }
