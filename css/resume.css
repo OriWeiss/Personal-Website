@@ -47,7 +47,7 @@ header{
   .skills{
       padding-top: 10px;
   }
-  .skills h3{
+  #resume h3{
     font-size: 1.3em;
   }
   #resume a{
