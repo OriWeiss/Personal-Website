@@ -1,4 +1,12 @@
-
+var isInViewport = function (elem) {
+    var bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
 
 
 $(function () {
@@ -11,12 +19,7 @@ $(function () {
     var haveDisplayed = false;
     
    $(window).scroll(function () {
-        var hT = $('.fun-facts').offset().top,
-            hH = $('.fun-facts').outerHeight(),
-            wH = $(window).height(),
-            wS = $(this).scrollTop();
-        console.log((hT - wH), wS);
-        if (!haveDisplayed && wS > (hT + hH - wH) ) {
+        if (!haveDisplayed && isInViewport(document.querySelector('#stairs-img')) ) {
             haveDisplayed = true;
         // Wrap every letter in a span
         
