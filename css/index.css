@@ -90,6 +90,7 @@ header > .header-wrapper{
 
   .facts h2{
     font-size: 2.3em;
+    display: none;
   }
   .facts p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -181,9 +182,11 @@ header > .header-wrapper{
 
 
 @media screen and (max-width: 750px){
-  body{
-    overflow-x: hidden; 
-    max-width: 100%;
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
   }
   .ml15{
     font-size: 2em;
