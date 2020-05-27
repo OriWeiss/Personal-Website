@@ -37,7 +37,7 @@ $(function () {
                   scaleX: [0,1],
                   opacity: [0.5,1],
                   easing: "easeInOutExpo",
-                  duration: 3000
+                  duration: 2000
                 }).add({
                   targets: '.ml14 .letter',
                   opacity: [0,1],

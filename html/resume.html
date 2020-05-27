@@ -23,6 +23,7 @@
   <!-- Bootstrap --><link rel="stylesheet" href="../component/bootstrap-4.4.1-dist/css/bootstrap.min.css" >
   <!-- animate.css --><link rel="stylesheet" href="../component/animate.css">
   <!-- FontAwesome.css --><link href="../component/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+  <!-- Anime.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body>
@@ -62,7 +63,12 @@
     <section id="resume">
     <div class="Technologies Topic row">
       <div class="section-title col-md-4">
-        <h2>Technologies</h2>
+        <h2 id="tech-title" class="ml11">
+          <span class="text-wrapper">
+            <span class="line-tech line1"></span>
+            <span class="letters-tech">Technologies</span>
+          </span>
+        </h2>
       </div>
       <div class="skills col-md-4">
         <h3>Skillful</h3>
@@ -98,7 +104,12 @@
     <div class="Topic">
     <div class="work-experience row">
       <div class="section-title col-md-4">
-        <h2>Work Experience</h2>
+        <h2 id="work-title" class="ml11">
+          <span class="text-wrapper">
+            <span class="line-work line2"></span>
+            <span class="letters-work">Work Experience</span>
+          </span>
+        </h2>
       </div>
       <div class="work-item col-md-8">
         <h3>FastTrack Software Intern</h3>
@@ -135,7 +146,12 @@
     <div class="Topic" id="education-section">
     <div class="education-degree row">
       <div class="section-title col-md-4">
-        <h2>Education</h2>
+        <h2 id="educ-title" class="ml11">
+          <span class="text-wrapper">
+            <span class="line-educ line3"></span>
+            <span class="letters-educ">Education</span>
+          </span>
+        </h2>
       </div>
       <div class= "education-desc col-md-8" >
         <h3>Bachelor of Science - Computer Science & Mathematics</h3>
@@ -166,5 +182,6 @@
   <script src="../component/jquery-3.4.1.min.js"></script>
   <script src="../component/popper.min.js"></script>
   <script src="../component/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+  <!--Load in any animations--><script src="../jss/resume-animations.js"></script>
 </body>
 </html>
