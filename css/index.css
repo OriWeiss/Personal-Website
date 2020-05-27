@@ -18,15 +18,15 @@ body {
   height: 100vh;
   background-color: black;
   color: white;
-  overflow-x: hidden; 
 }
 
 .cd-intro h1{
   margin: auto;
   text-align: center;
-  padding-top: 30%;
+  padding-top: 50%;
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1.3em;
+  letter-spacing: 1em;
+  left: 50%;
 
 }
 
@@ -44,12 +44,11 @@ header{
   /*font-size: 20em;*/
 }
 header h1{
+  padding-top: 10vh;
   font-size: 5em;
 }
 
-header > .header-wrapper{
-  padding-top: 20vh;
-}
+
 #hire-btn{
   font-size: 1.3em;
   font-weight: 700;
@@ -179,6 +178,12 @@ header > .header-wrapper{
 }
 
 
+/*.navbar  .sticky-top{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}*/
+
 
 
 @media screen and (max-width: 750px){
@@ -199,4 +204,5 @@ header > .header-wrapper{
     font-size: 1.5em;
    
   }
+
 }

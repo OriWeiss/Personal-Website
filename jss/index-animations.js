@@ -3,12 +3,11 @@
 
 $(function () {
 
-    var finishedIntro = false;
     slideTimer = setInterval(function() {
-    $('.cd-intro').slideUp(); 
-    }, 3500); 
+    $('.cd-intro').slideUp(); $(".navbar").addClass("fixed-top");
+    }, 3500);
 
-
+    
     var haveDisplayed = false;
     
    $(window).scroll(function () {
