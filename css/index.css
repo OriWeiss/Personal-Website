@@ -1,13 +1,36 @@
 /*Global Styles===========================================================================================*/
 body {
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     font-family: 'Comic Sans', cursive;
     font-size: 15px;
     line-height: 1.5;
+    overflow-x: hidden; 
+    max-width: 100%;
+    position: relative
   }
   
 /*===========================================================================================*/
+
+/* Animated Intro Screen===========================================================================================*/
+
+.cd-intro{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  overflow-x: hidden; 
+}
+
+.cd-intro h1{
+  margin: auto;
+  text-align: center;
+  padding-top: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.3em;
+
+}
+
+ /*===========================================================================================*/
 
 /*HEADER===========================================================================================*/
 header{
@@ -23,6 +46,7 @@ header{
 header h1{
   font-size: 5em;
 }
+
 header > .header-wrapper{
   padding-top: 20vh;
 }
@@ -51,6 +75,8 @@ header > .header-wrapper{
     color: black;
     padding-left: 10%;
     padding-right: 10%;
+    overflow-x: hidden; 
+    
   }
   .facts img{
     display: block;
@@ -107,13 +133,63 @@ header > .header-wrapper{
 }
 /*===========================================================================================*/
 
+
+
+.ml15 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+.ml14 {
+  font-weight: 200;
+  font-size: 3.2em;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  /*padding-right: 0.05em;*/
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  transform-origin: 100%;
+  bottom: 0;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+
 @media screen and (max-width: 750px){
+  body{
+    overflow-x: hidden; 
+    max-width: 100%;
+  }
+  .ml15{
+    font-size: 2em;
+  }
   header > .header-wrapper{
     padding-top: 5%;
-  }
-
-  header h1{
-    font-size: 3em;
   }
 
   .dedication p{

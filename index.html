@@ -22,8 +22,19 @@
   <!-- Bootstrap --><link rel="stylesheet" href="component/bootstrap-4.4.1-dist/css/bootstrap.min.css" >
   <!-- animate.css --><link rel="stylesheet" href="component/animate.css">
   <!-- FontAwesome.css --><link href="component/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+  <!-- Anime.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 <body>
+
+  <section class="cd-intro">
+    <div class="cd-intro-content animated zoomInUp slow">
+      <div class="content-wrapper">
+        <div>
+          <h1>ORI WEISS</h1>
+        </div>
+      </div>
+    </div>
+  </section>
   <main>
     <nav class="navbar navbar-expand-md navbar-default navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
@@ -54,10 +65,18 @@
         </div>
       </div>
     </nav>
-      
+
       <header>
         <div class="header-wrapper">
-          <h1>Software Engineer <br> Quality Assurance Specialist</h1>
+          <h1 class="ml15">
+            <span class="word">Software</span>
+            <span class="word">Engineer</span>
+          </h1>
+        </div>
+
+
+
+          
           <a class="btn" id="hire-btn" href="html/contact.html">Hire Me Today</a>
           <h3 id="quote">"It is not enough to do your best: you must KNOW what to do, and THEN do your best." - W. Edwards Deming</h3>
         </div>  
@@ -70,7 +89,14 @@
           </div>
           <div class = "col-md-8 col-lg-6 desc" id="facts-desc"> 
             <div id="facts-desc">
-            <h2>Get to Know Me</h2>
+
+              <h2 class="ml14">
+                <span class="text-wrapper">
+                  <span class="letters"> Get to Know Me</span>
+                  <span class="line"> </span>
+                </span>
+              </h2>
+  
             <p>
               I'm a Los Angeles based Software Engineer and recent college graduate.
               My desire is to be a programmer, until one day, I master the skill set needed
