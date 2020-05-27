@@ -63,7 +63,7 @@ $(function () {
 
             
         }
-        else if (!haveDisplayedWork && isInViewport(document.querySelector(".work-experience")))  {
+        else if (!haveDisplayedWork && isInViewport(document.querySelector("#intern-title")))  {
             haveDisplayedWork = true;
         // Wrap every letter in a span
         
