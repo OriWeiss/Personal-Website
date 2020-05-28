@@ -27,14 +27,13 @@ body {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
-  
-  
+  transform: translate(-50%, -50%);  
 }
 
 .animation .cd-intro h1{
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1em;
+  margin-right: -1em;
 
   text-align: center;
 
@@ -58,6 +57,19 @@ header h1{
   font-size: 5em;
 }
 
+header .btn-wrapper{
+  position: relative;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);  
+}
+
+header .quote-wrapper{
+  position: relative;
+  top: 35%;
+
+}
 
 #hire-btn{
   font-size: 1.3em;
