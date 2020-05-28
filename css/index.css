@@ -45,7 +45,7 @@ body {
 /*HEADER===========================================================================================*/
 header{
   background-color: #f0f0f0;
-  background-image:url(../images/glasses.jpeg);
+  background-image:url(../images/sunrise-back.jpg);
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100%  100%;
@@ -205,6 +205,9 @@ header h1{
   }
   .ml15{
     font-size: 2em;
+  }
+  header{
+    background-image:url(../images/earth-mobile.jpg);
   }
   header > .header-wrapper{
     padding-top: 5%;
