@@ -127,7 +127,11 @@ $(function () {
 
 });
 
-
+$("#scroll-btn").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#fun-facts").offset().top},
+      'slow');
+});
 
 
 

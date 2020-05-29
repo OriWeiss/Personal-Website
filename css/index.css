@@ -71,6 +71,15 @@ header .quote-wrapper{
 
 }
 
+header .scroll-wrapper{
+  position: relative;
+  top: 50%;
+}
+
+#scroll-btn:hover{
+  color: #e1a87a;
+}
+
 #hire-btn{
   font-size: 1.3em;
   font-weight: 700;
@@ -156,7 +165,7 @@ header .quote-wrapper{
 /*===========================================================================================*/
 
 
-
+/*Animations===========================================================================================*/
 .ml15 {
   font-weight: 800;
   font-size: 3.8em;
@@ -206,7 +215,7 @@ header .quote-wrapper{
   top: 0;
 }*/
 
-
+/*===========================================================================================*/
 
 @media screen and (max-width: 750px){
   html, body {
@@ -223,6 +232,10 @@ header .quote-wrapper{
   }
   header > .header-wrapper{
     padding-top: 5%;
+  }
+
+  header .scroll-wrapper{
+    display: none;
   }
 
   .dedication p{
