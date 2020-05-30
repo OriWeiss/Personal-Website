@@ -29,6 +29,16 @@ header{
       padding-right: 50%;
   }
 
+  header .scroll-wrapper{
+    position: relative;
+    top: 40%;
+  }
+  
+  #scroll-btn:hover{
+    color: #e1a87a;
+  }
+  
+
   /*============================================================================*/
 
   /*RESUME SECTION============================================================================*/
@@ -154,6 +164,9 @@ header{
 @media screen and (max-width: 850px){
     header h1{
         padding-right: 2%;
+    }
+    header .scroll-wrapper{
+      display: none;
     }
 }
 
