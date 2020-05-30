@@ -19,7 +19,7 @@ header{
 }
 
 header h1{
-  /*font-size: 5em;*/
+  display: block;
   color: white;
   padding-top: 15%;
   
