@@ -72,8 +72,11 @@ header .quote-wrapper{
 }
 
 header .scroll-wrapper{
-  position: relative;
-  top: 50%;
+  position:absolute;
+  top:100vh;
+  transform:translateY(-100%);
+  width:100%;
+  color: #007bff;
 }
 
 #scroll-btn:hover{
