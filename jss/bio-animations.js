@@ -13,14 +13,16 @@ $(function () {
     var haveDisplayedTravel = false;
     var haveDisplayedMotor = false;
     $("#travel-wrapper").css({display: "none"});
-    /* Header Animation*/
+    $("#motor-wrapper").css({ display: "none" });
+
+    
     $(window).scroll(function () {
    
 
     
  
  
-
+/**Travel header animation */
 if (!haveDisplayedTravel && screen.width > 750 && isInViewport(document.querySelector('#travel-wrapper')) ) {
       haveDisplayedTravel = true;
         // Wrap every letter in a span
@@ -28,8 +30,8 @@ if (!haveDisplayedTravel && screen.width > 750 && isInViewport(document.querySel
     $("#travel-wrapper").css({ display: "block" });
 
 
-    var textWrapper = document.querySelector('.ml14 .letters-travel');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-travel'>$&</span>");
+    var textWrapperTravel = document.querySelector('.ml14 .letters-travel');
+    textWrapperTravel.innerHTML = textWrapperTravel.textContent.replace(/\S/g, "<span class='letter-travel'>$&</span>");
 
     anime.timeline({loop: 1})
     .add({
@@ -57,13 +59,52 @@ if (!haveDisplayedTravel && screen.width > 750 && isInViewport(document.querySel
     });
 }
 
-    
    
-    /* Making Black Holes & CS Club Animation*/
+
+
+if (!haveDisplayedMotor && screen.width > 750 && isInViewport(document.querySelector('#motor-activ')) ) {
+    haveDisplayedMotor = true;
+      // Wrap every letter in a span
+
+  $("#motor-wrapper").css({ display: "block" });
+
+
+  var textWrapperMotor = document.querySelector('.ml14 .letters-motor');
+  textWrapperMotor.innerHTML = textWrapperMotor.textContent.replace(/\S/g, "<span class='letter-motor'>$&</span>");
+
+  anime.timeline({loop: 1})
+  .add({
+      targets: '.ml14 .line-motor',
+      scaleX: [0,1],
+      opacity: [0.5,1],
+      easing: "easeInOutExpo",
+      duration: 1500
+  }).add({
+      targets: '.ml14 .letter-motor',
+      opacity: [0,1],
+      translateX: [40,0],
+      translateZ: 0,
+      scaleX: [0.3, 1],
+      easing: "easeOutExpo",
+      duration: 800,
+      offset: '-=600',
+      delay: (el, i) => 150 + 25 * i
+  }).add({
+      targets: '.ml14',
+      opacity: 1,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+  });
+}
+
+   
+    
 
 
 }); 
 
+/* Making Black Holes & CS Club Animation*/
 if ($(window).width() > 750){
     $('#cern').css({ display: "none" });
     $('#csclub').css({ display: "none" });
@@ -80,7 +121,7 @@ if ($(window).width() > 750){
 
 
 
-
+/*Header animation*/
 anime.timeline({loop: 1})
 .add({
   targets: '.ml5 .line-heading',
