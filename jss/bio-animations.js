@@ -163,3 +163,9 @@ $(function () {
 
 
 }); /*END FUNCTION */
+
+$("#scroll-btn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#start-travel").offset().top},
+        'slow');
+});

@@ -25,6 +25,17 @@ header h1{
   
   }
 
+header .scroll-wrapper{
+    position: relative;
+    top: 35%;
+    color: #007bff;
+  }
+  
+#scroll-btn:hover{
+    color: #e1a87a;
+  }
+  
+
 /*==============================================================*/
 
 /*ACTIVITY==============================================================*/
@@ -224,6 +235,9 @@ header h1{
 
   header h1{
     font-size: 5em;
+  }
+  header .scroll-wrapper{
+    display: none;
   }
 
   #motorImg{
