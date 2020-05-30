@@ -17,7 +17,7 @@ $(function () {
 
     
     var haveDisplayed = false;
-    
+    /* Get to Know me Animation Mobile*/
    $(window).scroll(function () {
         if (!haveDisplayed && screen.width < 750 && isInViewport(document.querySelector('#stairs-img')) ) {
             haveDisplayed = true;
@@ -61,6 +61,7 @@ $(function () {
             
         }
 
+        /*Get to Know me Animation Desktop*/
         else if (!haveDisplayed && screen.width > 750 && isInViewport(document.querySelector('#facts-desc')) ) {
             haveDisplayed = true;
         // Wrap every letter in a span
@@ -107,6 +108,7 @@ $(function () {
 
     });
 
+    /*Software Engineer Animation */
     anime.timeline({loop: 2})
     .add({
         targets: '.ml15 .word',
