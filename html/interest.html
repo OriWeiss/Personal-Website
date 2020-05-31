@@ -22,6 +22,7 @@
   <!-- Bootstrap --><link rel="stylesheet" href="../component/bootstrap-4.4.1-dist/css/bootstrap.min.css" >
   <!-- animate.css --><link rel="stylesheet" href="../component/animate.css">
   <!-- FontAwesome.css --><link href="../component/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+  <!-- Anime.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
   <body>
@@ -57,10 +58,13 @@
         </nav>
 
       <header>
-        <h1>Passions as a Creator</h1>
+        <h1 class="ml2">Passions as a Creator</h1>
+        <div class="scroll-wrapper">
+          <a id="scroll-btn" ><i class="fas fa-chevron-down fa-4x"></i></a>
+        </div>
       </header>
 
-      <section class="automation calc-padding">
+      <section class="automation calc-padding" id="start-auto">
         <div class="row">
           <div class="col-md-4 col-lg-6" id="automation-img">
             <img src="../images/automation.jpg" class = "img-thumbnail" >
@@ -122,6 +126,7 @@
     <script src="../component/popper.min.js"></script>
     <script src="../component/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <!--Load in the adjusted layout--><script src="../jss/layout.js"></script>
+    <!--Load in any animations--><script src="../jss/interest-animations.js"></script>
   </body>
 
 </html>

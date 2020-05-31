@@ -12,7 +12,7 @@ var isInViewport = function (elem) {
 $(function () {
 
     slideTimer = setInterval(function() {
-    $('.animation').slideUp(); $(".navbar").addClass("fixed-top");
+    $('.animation').slideUp(); $(".navbar").addClass("fixed-top"); $(".scroll-wrapper").css({display: "block"});
     }, 3500);
 
     
